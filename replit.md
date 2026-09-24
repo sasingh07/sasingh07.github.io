@@ -1,45 +1,16 @@
-# [Project name]
+# sasingh07.github.io
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+This project is a GitHub Pages Jekyll user site. Keep the actual publishable site at repository root, not in an artifact or generated output folder.
 
-## Run & Operate
+## Content and structure
+- Markdown pages with YAML front matter are at root; navigation is in `_data/navigation.yml`.
+- Shared shell lives in `_layouts/default.html`, `_includes/header.html`, and `_includes/footer.html`.
+- CSS and favicon live under `assets/`.
+- Preserve `url: "https://sasingh07.github.io"` and `baseurl: ""` in `_config.yml` for the user site; use `relative_url` for internal paths.
+- Never invent biography, work history, employers, metrics, or projects. Leave visible placeholders where source material has not been supplied.
+- No backend, Node app, React/Vite app, or nested website. No third-party tracking.
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
-
-## Stack
-
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
-
-## Where things live
-
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+## Run
+- `jekyll build` checks the static output in `_site/`.
+- `jekyll serve --host 0.0.0.0 --port 5000` previews locally in this environment.
+- GitHub Pages deploys from branch `main`, folder `/ (root)`, with no manual build.

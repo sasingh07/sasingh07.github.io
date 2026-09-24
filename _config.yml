@@ -1,0 +1,22 @@
+title: "Portfolio — sasingh07"
+description: "Personal portfolio of sasingh07. Biography and work history coming soon."
+url: "https://sasingh07.github.io"
+baseurl: ""
+lang: "en"
+email: ""
+github_username: "sasingh07"
+timezone: "America/Los_Angeles"
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - PLAN.md
+  - Gemfile
+  - Gemfile.lock
+  - replit.md
+  - .conversation
+  - .local
+  - .agents
+  - .cache

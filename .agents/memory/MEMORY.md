@@ -1,0 +1,1 @@
+- [Jekyll audit tooling](jekyll-audits.md) — Nix's `lighthouse` command is not Google's web auditor; use temporary Google Lighthouse tooling for audits.

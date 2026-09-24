@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Portfolio home">
+    <span class="brand-mark" aria-hidden="true">s.</span>
+    <span class="brand-name">sasingh07</span>
+  </a>
+  <nav aria-label="Main navigation">
+    <ul class="nav-list">
+      {% assign navigation = site.data.navigation %}
+      {% for item in navigation %}
+        {% assign item_url = item.url | relative_url %}
+        <li><a href="{{ item_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
