@@ -13,3 +13,5 @@
 .cache/
 .local/
 .conversation/
+# Uploaded source documents are not public website assets.
+attached_assets/

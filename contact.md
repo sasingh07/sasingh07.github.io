@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-description: "Get in touch with sasingh07."
+description: "Contact Saurabh Singh by email or connect on LinkedIn and GitHub."
 permalink: /contact/
 ---
 
@@ -20,6 +20,10 @@ permalink: /contact/
     {% else %}
       <p><strong>Placeholder — email address:</strong> Add your public email to <code>_config.yml</code> to display a mailto link here.</p>
     {% endif %}
+  </div>
+  <div class="contact-option">
+    <span class="contact-label">LINKEDIN</span>
+    <a href="{{ site.linkedin_url | escape }}" rel="me">Connect with Saurabh Singh <span aria-hidden="true">↗</span></a>
   </div>
   <div class="contact-option">
     <span class="contact-label">GITHUB</span>

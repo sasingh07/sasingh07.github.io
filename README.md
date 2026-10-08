@@ -4,10 +4,12 @@ A static Jekyll portfolio intended for GitHub Pages. All website source is at th
 
 ## Before publishing
 
-1. Replace the clearly marked placeholders in `index.md`, `about.md`, `experience.md`, and `contact.md` with your own words. Markdown pages have YAML front matter between the `---` lines; keep that block in place.
+1. Update the résumé-based text in `index.md`, `about.md`, and `experience.md` as your background changes. Markdown pages have YAML front matter between the `---` lines; keep that block in place.
 2. Edit `_config.yml`: set `title` and `description` to your real preferred wording and put a public email address in `email` if desired. A mailto link exposes the address publicly and requires the visitor to have an email app configured. Leave `email: ""` to keep the placeholder and omit the link.
 3. Edit `_data/navigation.yml` for menu labels or paths; edit `_includes/header.html` and `_includes/footer.html` for shared chrome; edit `assets/css/style.css` for the theme.
-4. If your GitHub username changes, update `url`, `github_username`, and the displayed name in the shared includes and Markdown pages. For a user site the GitHub repository must be named `sasingh07.github.io` under the `sasingh07` account.
+4. If your GitHub username changes, update `url` and `github_username`. Your displayed name is set in `author.name` and in the Home page heading. Update `linkedin_url` to change the LinkedIn link. For a user site the GitHub repository must be named `sasingh07.github.io` under the `sasingh07` account.
+
+Uploaded source documents in `attached_assets/` are excluded from the Jekyll output and ignored by Git so the full résumé and phone number are not published as website assets.
 
 ## Publish using GitHub Pages
 

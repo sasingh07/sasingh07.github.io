@@ -1,9 +1,12 @@
-title: "Portfolio — sasingh07"
-description: "Personal portfolio of sasingh07. Biography and work history coming soon."
+title: "Saurabh Singh"
+description: "Saurabh Singh — Berkeley Haas MBA candidate with experience in economic consulting and secondary-market investing."
+author:
+  name: "Saurabh Singh"
 url: "https://sasingh07.github.io"
 baseurl: ""
 lang: "en"
-email: ""
+email: "saurabh_singh@berkeley.edu"
+linkedin_url: "https://www.linkedin.com/in/saurabhsingh0710"
 github_username: "sasingh07"
 timezone: "America/Los_Angeles"
 markdown: kramdown
@@ -20,3 +23,4 @@ exclude:
   - .local
   - .agents
   - .cache
+  - attached_assets
