@@ -1,6 +1,6 @@
 # Change 2 — Agent Sergeant project preview
 
-**Status:** Revised proposal; awaiting approval. No project content has been added to the website.
+**Status:** Approved, implemented, and verified with the requested revisions.
 
 ## Objective
 
@@ -81,4 +81,25 @@ The planning-file exclusion is a publication safeguard, not implementation of th
 
 ## Approval
 
-Awaiting approval of the placement, scope, and proposed public copy before any website-content or design implementation.
+Approved after revisions: use Currently Building, omit team references, use the engaging first-person description, and remove the separate In development label.
+
+## Implementation results
+
+- Added Agent Sergeant to Home after Selected Experience and before Beyond the Work.
+- Used the exact approved 47-word description and the Currently Building section label, with no status badge, team references, project link, or document download.
+- Reused existing section styling, including responsive spacing and system-driven light/dark colors. No CSS changes or new dependencies were needed for the website.
+- Preserved all existing page content, routes, navigation, and contact destinations.
+- Kept this document and the uploaded PDFs excluded from published output.
+
+### Verification
+
+- Jekyll rebuilt successfully and the preview is running.
+- Home passed checks at 375px and 1280px in both light and dark themes: exact copy, placement, heading hierarchy, no horizontal overflow, unclipped navigation, and keyboard skip-link behavior.
+- Inspected the rendered desktop page and mobile dark project section. Project text and section-label contrast exceeded 4.5:1 in both themes.
+- Internal links and anchors across all four pages resolve; existing email, LinkedIn, and GitHub destinations remain intact.
+- Local Home-page Lighthouse scores: **Performance 100, Accessibility 100, Best Practices 100, SEO 100**.
+- Temporary browser/audit tooling is separate from the website and is not a site dependency.
+
+### Deployment status
+
+The local website update is complete. No GitHub publication or deployment was performed.

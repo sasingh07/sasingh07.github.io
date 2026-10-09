@@ -56,6 +56,12 @@ permalink: /
   </div>
 </section>
 
+<section class="home-next" aria-labelledby="agent-sergeant-heading">
+  <p class="section-kicker">CURRENTLY BUILDING</p>
+  <h2 id="agent-sergeant-heading">Agent Sergeant</h2>
+  <p>An AI agent can give the right answer—and still skip a critical check. I’m building Agent Sergeant to explore that gap with deterministic checks against approved rules. The goal: make deviations visible and give people clear evidence to review, instead of leaving them to dig through logs.</p>
+</section>
+
 <section class="home-next" aria-labelledby="next-heading">
   <p class="section-kicker">BEYOND THE WORK</p>
   <h2 id="next-heading">A little more about me.</h2>
