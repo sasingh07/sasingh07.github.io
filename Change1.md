@@ -1,6 +1,6 @@
 # Change 1 — Data, finance, valuation, and technology
 
-**Status:** Proposed design refinement; awaiting approval. No visual changes have been applied.
+**Status:** Approved, implemented, and verified.
 
 ## Objective
 
@@ -128,3 +128,35 @@ Refine Saurabh Singh's portfolio so it reads as the professional site of someone
 - A navy/blue visual direction is proposed for approval; it is not a previously stated color preference.
 - Professional positioning may be rewritten for clarity without adding qualifications or accomplishments.
 - Publication to GitHub is outside this design change; no repository or live deployment will be modified without a separate request.
+
+## Implementation record
+
+- Replaced the warm green styling with the approved navy/blue light and dark palettes, a matching SS monogram/favicon, smaller headings, tighter spacing, and monospace/tabular date labels.
+- Refined Home to lead with financial analysis, valuation, and technology-informed investing. Added the three expertise areas, two contextual work highlights, and links to the relevant Experience sections.
+- Reorganized About into education, tools, mentoring, and personal sections. MBA candidacy and the expected May 2027 graduation date are explicit; Python remains intermediate.
+- Introduced a restrained vertical work-history progression with clear employers, roles, locations, and dates. Preserved the résumé's financial figures and accomplishments and clarified the NAV discount as bidding-strategy approval.
+- Aligned Contact and shared navigation/footer styles. The email, LinkedIn, and GitHub links remain direct links; uploaded source documents stay excluded from publication.
+- No new pages, executable JavaScript, external fonts, charts, application framework, or backend were added.
+
+### Verification results — October 8, 2026
+
+These checks used the local Jekyll preview, not a published GitHub Pages deployment.
+
+| Page | Performance | Accessibility | Best Practices | SEO |
+| --- | ---: | ---: | ---: | ---: |
+| Home | 100 | 100 | 100 | 100 |
+| About | 100 | 100 | 100 | 100 |
+| Work Experience | 99 | 100 | 100 | 100 |
+| Contact | 100 | 100 | 100 | 100 |
+
+- Jekyll build and whitespace/diff checks passed.
+- Checked all four pages at 375px and 1280px in light and dark themes: all 16 combinations passed horizontal-overflow, navigation, heading-order, active-page, and keyboard skip-link checks.
+- Inspected rendered desktop/mobile layouts and the dark contact page. Checked the defined text, link, label, and button color pairs in both themes; each exceeded the 4.5:1 normal-text contrast requirement.
+- Internal links and work-highlight anchors resolve; no placeholders appear in rendered pages.
+- Financial figures and role dates remain present in the generated Experience page.
+- Confirmed the source site remains at repository root and the output contains only website pages and assets. Planning documents and uploaded PDFs are excluded.
+- Temporary browser/audit tools are not part of the website or its GitHub Pages build.
+
+### Deployment status
+
+The local design update is complete. GitHub publishing was not performed as part of this change.

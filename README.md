@@ -42,3 +42,9 @@ Once the site is serving, open Chrome DevTools → **Lighthouse**, select **Navi
 - `_config.yml`, `Gemfile` — Jekyll/GitHub Pages configuration
 
 There is no JavaScript, backend, database, tracking script, or third-party font request.
+
+## Design conventions
+
+The approved refinement is documented in `Change1.md`, which is excluded from published output. Keep the site single-column and use the existing CSS custom properties for the navy/blue light and dark palettes. Color schemes follow the visitor's system preference.
+
+Use the shared section, date, and role styles when updating pages rather than inline CSS. Preserve semantic heading order and descriptive links. Financial figures in work highlights must retain their context: portfolio size is not an investment return, and committee approval of a pricing strategy is not a realized transaction.

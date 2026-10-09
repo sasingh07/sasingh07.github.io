@@ -9,14 +9,14 @@ permalink: /contact/
 
 # Let's talk<span class="accent">.</span>
 
-<p class="lead">Have something in mind? I'd like to hear from you.</p>
+<p class="lead">For a conversation about valuation, economic analysis, or investing, reach me here.</p>
 
 <div class="contact-options">
   <div class="contact-option">
     <span class="contact-label">EMAIL</span>
     {% if site.email != empty and site.email %}
       <a href="mailto:{{ site.email | escape }}">{{ site.email | escape }} <span aria-hidden="true">↗</span></a>
-      <p>This opens your email app.</p>
+      <p>Direct email link. Opens your email app.</p>
     {% else %}
       <p><strong>Placeholder — email address:</strong> Add your public email to <code>_config.yml</code> to display a mailto link here.</p>
     {% endif %}
