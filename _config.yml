@@ -16,6 +16,7 @@ plugins:
 exclude:
   - README.md
   - PLAN.md
+  - Change1.md
   - Gemfile
   - Gemfile.lock
   - replit.md
