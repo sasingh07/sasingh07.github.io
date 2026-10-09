@@ -1,5 +1,5 @@
 title: "Saurabh Singh"
-description: "Saurabh Singh — Berkeley Haas MBA candidate with experience in economic consulting and secondary-market investing."
+description: "Saurabh Singh — Berkeley Haas MBA candidate connecting financial analysis, valuation, economic consulting, and technology-informed investing."
 author:
   name: "Saurabh Singh"
 url: "https://sasingh07.github.io"
@@ -16,6 +16,7 @@ plugins:
 exclude:
   - README.md
   - PLAN.md
+  - Change1.md
   - Gemfile
   - Gemfile.lock
   - replit.md
